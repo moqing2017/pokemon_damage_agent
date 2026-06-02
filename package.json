@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "calc": "node tools/calc.mjs"
+  },
+  "dependencies": {
+    "@smogon/calc": "latest"
+  }
+}

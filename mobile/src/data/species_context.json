@@ -1,0 +1,212 @@
+{
+  "Basculegion": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Basculegion",
+        "gender": "M/default",
+        "baseStats": {
+          "hp": 120,
+          "at": 112,
+          "df": 65,
+          "sa": 80,
+          "sd": 75,
+          "sp": 78
+        },
+        "abilities": {
+          "0": "Swift Swim"
+        }
+      },
+      {
+        "name": "Basculegion-F",
+        "gender": "F",
+        "baseStats": {
+          "hp": 120,
+          "at": 92,
+          "df": 65,
+          "sa": 100,
+          "sd": 75,
+          "sp": 78
+        },
+        "abilities": {
+          "0": "Swift Swim"
+        }
+      }
+    ]
+  },
+  "Indeedee": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Indeedee",
+        "gender": "M/default",
+        "baseStats": {
+          "hp": 60,
+          "at": 65,
+          "df": 55,
+          "sa": 105,
+          "sd": 95,
+          "sp": 95
+        },
+        "abilities": {
+          "0": "Inner Focus"
+        }
+      },
+      {
+        "name": "Indeedee-F",
+        "gender": "F",
+        "baseStats": {
+          "hp": 70,
+          "at": 55,
+          "df": 65,
+          "sa": 95,
+          "sd": 105,
+          "sp": 85
+        },
+        "abilities": {
+          "0": "Own Tempo"
+        }
+      }
+    ]
+  },
+  "Meowstic": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Meowstic",
+        "gender": "M/default",
+        "baseStats": {
+          "hp": 74,
+          "at": 48,
+          "df": 76,
+          "sa": 83,
+          "sd": 81,
+          "sp": 104
+        },
+        "abilities": {
+          "0": "Keen Eye"
+        }
+      },
+      {
+        "name": "Meowstic-F",
+        "gender": "F",
+        "baseStats": {
+          "hp": 74,
+          "at": 48,
+          "df": 76,
+          "sa": 83,
+          "sd": 81,
+          "sp": 104
+        },
+        "abilities": {
+          "0": "Keen Eye"
+        }
+      },
+      {
+        "name": "Meowstic-F-Mega",
+        "gender": "F",
+        "baseStats": {
+          "hp": 74,
+          "at": 48,
+          "df": 76,
+          "sa": 143,
+          "sd": 101,
+          "sp": 124
+        },
+        "abilities": {
+          "0": "Keen Eye"
+        }
+      },
+      {
+        "name": "Meowstic-M-Mega",
+        "gender": "M",
+        "baseStats": {
+          "hp": 74,
+          "at": 48,
+          "df": 76,
+          "sa": 143,
+          "sd": 101,
+          "sp": 124
+        },
+        "abilities": {
+          "0": "Keen Eye"
+        }
+      }
+    ]
+  },
+  "Nidoran-F": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Nidoran-F",
+        "gender": "F",
+        "baseStats": {
+          "hp": 55,
+          "at": 47,
+          "df": 52,
+          "sp": 41,
+          "sa": 40,
+          "sd": 40
+        },
+        "abilities": {
+          "0": "Poison Point"
+        }
+      }
+    ]
+  },
+  "Nidoran-M": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Nidoran-M",
+        "gender": "M",
+        "baseStats": {
+          "hp": 46,
+          "at": 57,
+          "df": 40,
+          "sp": 50,
+          "sa": 40,
+          "sd": 40
+        },
+        "abilities": {
+          "0": "Poison Point"
+        }
+      }
+    ]
+  },
+  "Oinkologne": {
+    "note": "Forms differ by sex/form. Ask when it materially affects damage, or choose the mainstream set with an assumption when the user allows defaults.",
+    "forms": [
+      {
+        "name": "Oinkologne",
+        "gender": "M/default",
+        "baseStats": {
+          "hp": 110,
+          "at": 100,
+          "df": 75,
+          "sa": 59,
+          "sd": 80,
+          "sp": 65
+        },
+        "abilities": {
+          "0": "Lingering Aroma"
+        }
+      },
+      {
+        "name": "Oinkologne-F",
+        "gender": "F",
+        "baseStats": {
+          "hp": 115,
+          "at": 90,
+          "df": 70,
+          "sa": 59,
+          "sd": 90,
+          "sp": 65
+        },
+        "abilities": {
+          "0": "Aroma Veil"
+        }
+      }
+    ]
+  }
+}

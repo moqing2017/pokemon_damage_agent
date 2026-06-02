@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Mobile build output
+mobile/node_modules/
+mobile/dist/
+mobile/android/local.properties
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/app/release/
+*.apk
+*.aab
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

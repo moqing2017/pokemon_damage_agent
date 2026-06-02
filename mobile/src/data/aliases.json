@@ -1,0 +1,57 @@
+{
+  "pokemon": {
+    "鬼仙": ["Flutter Mane"],
+    "地龙": ["Garchomp"],
+    "烈咬": ["Garchomp"],
+    "多龙": ["Dragapult"],
+    "鳄鱼": ["Skeledirge"],
+    "仆刀": ["Kingambit"],
+
+    "洛托姆": [
+      "Rotom-Wash",
+      "Rotom-Heat",
+      "Rotom-Mow",
+      "Rotom-Frost",
+      "Rotom-Fan"
+    ],
+    "水洛托姆": ["Rotom-Wash"],
+    "火洛托姆": ["Rotom-Heat"],
+    "草洛托姆": ["Rotom-Mow"]
+  },
+
+  "move": {
+    "月爆": ["Moonblast"],
+    "十万": ["Thunderbolt"],
+    "火放": ["Flamethrower"],
+    "冰光": ["Ice Beam"],
+    "近战": ["Close Combat"],
+    "水流": ["Surging Strikes"],
+    "暗强": ["Wicked Blow"]
+  },
+
+  "item": {
+    "眼镜": ["Choice Specs"],
+    "头带": ["Choice Band"],
+    "围巾": ["Choice Scarf"],
+    "命玉": ["Life Orb"],
+    "背心": ["Assault Vest"],
+    "奇石": ["Eviolite"],
+    "剩饭": ["Leftovers"],
+    "腰带": ["Focus Sash"]
+  },
+
+  "compound": {
+    "眼镜鬼仙": {
+      "pokemon": ["Flutter Mane"],
+      "item": ["Choice Specs"]
+    },
+    "鬼仙眼镜": {
+      "pokemon": ["Flutter Mane"],
+      "item": ["Choice Specs"]
+    },
+    "头带快龙": {
+      "pokemon": ["Dragonite"],
+      "item": ["Choice Band"]
+    }
+  }
+}
