@@ -72,8 +72,6 @@ DEEPSEEK_MODEL=deepseek-chat
 BASE_URL=https://api.deepseek.com
 ```
 
-`.env` 已经被 `.gitignore` 忽略，不要上传到 GitHub。
-
 ### 3. 启动
 
 ```powershell
@@ -103,8 +101,6 @@ Android 工程位于 `mobile/`。
 ```text
 mobile/android/app/build/outputs/apk/debug/app-debug.apk
 ```
-
-如果需要给别人下载，推荐把 APK 上传到 GitHub Releases，不建议直接提交到 git 仓库。
 
 ## Android 打包
 
@@ -142,16 +138,6 @@ node tools\build-name-maps.mjs
 
 本项目不会在源码或 APK 中内置 DeepSeek API Key。
 
-- 命令行版从 `.env` 读取 API Key
-- Android 版由用户在应用设置中填写 API Key
-- `.env`、APK、构建产物、`node_modules` 均已加入 `.gitignore`
-
-上传 GitHub 前可以检查：
-
-```powershell
-git status --ignored --short
-```
-
 ## 技术栈
 
 - Python
@@ -162,10 +148,3 @@ git status --ignored --short
 - DeepSeek API
 - `@smogon/calc`
 
-## 适合作为秋招项目展示的点
-
-- LLM Agent 与确定性工具调用结合
-- 中文对战术语标准化
-- 多轮上下文槽位更新
-- 道具、特性、天气、场地等复杂条件建模
-- CLI 到 Android APK 的完整工程落地
